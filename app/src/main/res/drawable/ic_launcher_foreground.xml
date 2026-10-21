@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple gauge: arc + needle -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M34,66 A22,22 0 1,1 74,66"
+        android:strokeWidth="6"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,56 L67,41"
+        android:strokeWidth="5"
+        android:strokeColor="#FFB74D"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,56 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#FFFFFF" />
+</vector>
